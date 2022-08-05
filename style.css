@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+
+
+/* ------------------------------ */
+/* ---------HEADER----------- */
+/* ------------------------------ */
+
+header {
+    background-color: #713DCC;
+    color: #ffffff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav-items a {
+    display: inline-block;
+    margin: 0 1.5rem;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 300;
+    border-bottom: 1px solid transparent;
+    
+}
+
+.nav-items a:hover {
+    color: #4BBDF0;
+    border-bottom: 1px solid #C666DC;
+}
+
+.logo img {
+    display: inline-block;
+    width: 7rem;
+}
+
+nav button {
+    display: inline-block;
+    padding: 1rem 1.8rem;
+    border: none;
+    background-color: #4BBDF0;
+    margin-left: 3rem;
+    color: #ffffff;
+}
+
+
+
+
+
+/* ------------------------------ */
+/* ---------SHOWCASE-SECTION----------- */
+/* ------------------------------ */
+
+.showcase {
+    width: 85%;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.showcase img {
+    display: inline-block;
+    width: 40rem;
+    margin-bottom: 3rem;
+}
+
+.showcase div:first-child {
+    width: 40%;
+}
+
+.showcase h1 {
+    font-size: 4rem;  
+    margin: 2rem 0; 
+}
+
+.showcase p {
+    line-height: 1.2rem;
+    font-weight: 300;
+    word-spacing: 2px;
+    margin-right: 2.7rem;
+}
+
+
+
+
+
+/* ------------------------------ */
+/* ---------FEATURES-SECTION----------- */
+/* ------------------------------ */
+
+/* icons-color */
+
+.orange {
+    color: #F28A3F;
+}
+
+.green {
+    color: #7ACA3A;
+}
+
+.blue {
+    color: #3F9CF2;
+}
+
+/* ---------FEATURE-SECTION----------- */
+
+.feature-info {
+    display: flex;
+    justify-content: space-between;
+    width: 83%;
+    margin-left: 7%;
+    margin-right: 10%;
+    margin-top: 5rem;
+}
+
+.feature-img {
+    width: 70%;
+}
+
+.feature-details{
+    width: 30%;
+    margin-top: 3rem;
+}
+
+.feature-img img {
+    display: inline-block;
+    width: 40rem;
+}
+
+.feature-details h1 {
+    margin: 2rem 0;
+}
+
+.feature-details div {
+    margin: 2rem 0;
+}
+
+.feature-details h3 {
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.feature-details p {
+      color:#434343;
+}
+
+
+
+
+/* ------------------------------ */
+/* ---------FOOTER----------- */
+/* ------------------------------ */
+
+.footer-info {
+    margin-bottom: 3rem;
+}
+
+footer h1 {
+      width: 50%;
+      margin: 3rem auto;
+     text-align: center;
+     font-size: 2rem;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-details {
+    box-shadow: 10px 5px 5px #C0C0C0;
+    border-radius: 20px;
+    margin: 2rem;
+    text-align: center;
+}
+
+
+.footer-details img {
+    display: inline-block;
+    width: 10rem;
+    padding: 1rem 0;
+}
+
+.footer-bottom {
+    padding: 1rem;
+}
+
+.active {
+    background-color: #6536B7;
+    border: none;
+    border-radius: 20px;
+    color: #ffffff;
+}
+
+.footer-bottom h2 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
